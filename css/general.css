@@ -3,40 +3,34 @@
 
 }
 html{
-  height: 1080px;
   width: 1920px;
    background-image:url('../imagenesfondo/fondo1.jpg');
+   overflow: hidden;
 }
 
 header{
   width: 100%;
   height: fit-content;
-  border: 1px solid black;
-  margin-bottom: 5%;
+  display: flex;
+  gap: 250px;
 }
 h1{
   color:crimson;
   font-size: 3em;
 }
 
-table{
-  width: 100%;
-  height: 100%;
+#logo{
+  flex-grow: 2; 
+  max-width: 400px;
 }
-td{
-  width: 10%;
-  height: 5%;
-}
-button{
-  width: 100%;
-  height:100%;
+.boton{
+  max-width: 215px;
+  flex-grow: 0.25;
   background-color: white; /* Color de fondo */
   color: black; /* Color del texto */
   border-radius: 5px; /* Bordes redondeados */
   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-}
-.visible{
-  text-align:  center;
+
 }
 
 .container{
@@ -119,7 +113,7 @@ caption{
 
 
 footer {
-  margin-top: 45%;
+  margin-top: 
   color: black; 
   text-align: center; /* Centra el texto */
   padding: 1%;
