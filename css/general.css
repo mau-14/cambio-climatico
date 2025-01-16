@@ -12,20 +12,27 @@ header{
   width: 100%;
   height: fit-content;
   display: flex;
-  gap: 250px;
+  gap: 300px;
 }
 h1{
   color:crimson;
   font-size: 3em;
 }
 
-#logo{
-  flex-grow: 2; 
-  max-width: 400px;
+#logo {
+  flex-grow: 2;
+  max-width: 100px;
+  background-image: url('../imagenesfondo/escuela-virgen-de-guadalupe-badajoz.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  border: none;
 }
 .boton{
   max-width: 215px;
   flex-grow: 0.25;
+  height: fit-content;
   background-color: white; /* Color de fondo */
   color: black; /* Color del texto */
   border-radius: 5px; /* Bordes redondeados */
@@ -35,10 +42,9 @@ h1{
 
 .container{
   /* Esto debería haberlo puesto en el body*/
-  max-width: 1280px;
-  max-height: 720px;
+  max-width: 1920px;
+  max-height: fit-content;
   text-align: center;
-  height: 100%;
 }
 
 .info h3 {
@@ -58,7 +64,7 @@ h1{
 }
 
 .info li {
-  margin-bottom: 10px; /* Añade espacio entre los elementos */
+  margin-bottom: 100px; /* Añade espacio entre los elementos */
   color: black;
   font-size: 1em;
 }

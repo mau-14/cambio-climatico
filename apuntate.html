@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-            <button id=logo>Logo</button>
+            <div id=logo></div>
             <button class=boton onclick="window.location.href='quepuedeshacertu.html';">¿Qué puedes hacer?</button>
             <button class=boton onclick="window.location.href='apuntate.html';">Apúntate</button>
             <button class=boton onclick="window.location.href='apuntate.html';">Contacto</button>
@@ -41,20 +41,18 @@
                 </select>
               </div>
               <div class=datos>
-                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
                 <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
               </div>
             </fieldset>
             
             <fieldset>
-              <div class=datos>
+              <div id='organizacion'>
                    <label>Elija Organización a la que apoyar</label>
-                      <div class=radio_group>
                         <input type="checkbox" name="organizacion[]" id="Cruzroja" value="Cruz Roja">
                         <label for="Cruzroja">Cruz Roja</label>
                         <input type="checkbox" name="organizacion[]" id="MedicosSinFrontera" value="Médicos sin Fronteras">
                         <label for="MedicosSinFrontera">Médicos Sin Fronteras</label>
-                      </div>                
               </div>
 
             </fieldset>
